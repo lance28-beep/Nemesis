@@ -5,7 +5,7 @@ import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 
 const founders = [
   {
-    name: 'John Doe',
+    name: 'Lance Valle',
     title: 'Founder & CEO',
     image: '/images/lance-avatar.png',
     bio: 'A visionary leader with 10+ years of experience in web development and digital transformation. Passionate about creating innovative solutions that drive business growth.',
@@ -16,7 +16,7 @@ const founders = [
     }
   },
   {
-    name: 'Jane Smith',
+    name: 'Alyssa Lyn Jecomo',
     title: 'Co-Founder & CTO',
     image: '/images/Alyssa.png',
     bio: 'A tech enthusiast with expertise in cutting-edge web technologies. Dedicated to building scalable and secure web applications that deliver exceptional user experiences.',
