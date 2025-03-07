@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+    "lint": "eslint . --ext .ts,.tsx --config .eslintrc.json",
+    "lint:fix": "eslint . --ext .ts,.tsx --config .eslintrc.json --fix"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
@@ -28,6 +28,8 @@
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
     "autoprefixer": "^10.4.18",
     "cssnano": "^6.0.5",
     "eslint": "^9.21.0",

@@ -1,10 +1,10 @@
 // Add this type definition at the top of your file
-type Env = {
+interface Env {
   bool: (key: string, defaultValue?: boolean) => boolean;
   string: (key: string, defaultValue?: string) => string;
   number: (key: string, defaultValue?: number) => number;
   // Add other methods if needed
-};
+}
 
 // Then modify your env usage
 const env: Env = {
@@ -24,7 +24,7 @@ const env: Env = {
 };
 
 // Now you can use env.bool safely
-const config = {
+export const config = {
   app: {
     name: env.string('APP_NAME', 'Nemesis'),
     env: env.string('NODE_ENV', 'development'),

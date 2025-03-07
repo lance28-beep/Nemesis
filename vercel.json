@@ -3,6 +3,7 @@
     "env": {
       "FLAG_NPS": "true",
       "FLAG_PROMOTE_EE": "true"
-    }
+    },
+    "command": "npm run build"
   }
 } 
